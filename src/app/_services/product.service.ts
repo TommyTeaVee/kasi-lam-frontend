@@ -23,7 +23,7 @@ const httpOptions = {
 export class ProductService {
   items: Product[] = [];
 
-  API_product="http://localhost:8080/api/products"
+  API_product="https://backend-kasi-dx9e1j2jg-tommyteavee.vercel.app/api/products"
 
   constructor( private http: HttpClient
      ) { }

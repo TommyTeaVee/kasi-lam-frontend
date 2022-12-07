@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const API_URL = 'http://localhost:8080/api/shop/';
+const API_URL = 'https://backend-kasi-dx9e1j2jg-tommyteavee.vercel.app/api/shop/';
 const AUTH_TOKEN = window.sessionStorage.getItem('auth-token')
 
 const httpOptions = {

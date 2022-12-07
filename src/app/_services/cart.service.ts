@@ -10,7 +10,7 @@ export class CartService {
 
   constructor( private productService: ProductService, private http: HttpClient ) { }
 
-   API_product="http://localhost:8080/api/cart"
+   API_product="https://backend-kasi-dx9e1j2jg-tommyteavee.vercel.app/api/cart"
 
   public cartItemList :any =[]
 
